@@ -1,19 +1,12 @@
 class Computer
+  attr_reader :weapon
 
-WEAPONS = [:rock, :paper, :scissors]
+  def initialize
+    @weapons = %w[rock paper scissors].freeze
+    @weapon = nil
+  end
 
-
-
-
-# def initialize(player_1, player_2)
-#   @player_1 = player1
-#   @player_2 = player2
-# end
-
-
-def show_weapons
-  WEAPONS
-end
-
-
+  def choose_weapon
+    @weapon = @weapons.sample
+  end
 end

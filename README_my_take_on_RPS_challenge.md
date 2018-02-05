@@ -38,7 +38,7 @@ Here is my work on the RPS challenge, please see comments below.
 My logic:
 
 To me, this game calls for the creation of 3 class objects that will need to interact with each other:
- - a player class that will take and return a name so that the MA marketeer can start the game (which covers most of the first user story). This name needs to be stored in a session.
+ - a player class that will take and return a name so that the MA marketeer can start the game (which covers the first user story). This name needs to be stored in a session.
  - a game class that stands for the player's 'opponent'.
  - a computer class which will contain multiple methods.
 

@@ -1,11 +1,20 @@
+ENV['RACK_ENV'] = 'test'
+
+
 require 'capybara/rspec'
+require 'selenium-webdriver'
 require 'simplecov'
 require 'simplecov-console'
+require 'sinatra'
+require './app.rb'
+require 'rspec'
+
+Capybara.app = RPSWeb
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
   # Want a nice code coverage website? Uncomment this next line!
-  # SimpleCov::Formatter::HTMLFormatter
+  #SimpleCov::Formatter::HTMLFormatter
 ])
 SimpleCov.start
 

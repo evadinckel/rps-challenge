@@ -45,5 +45,9 @@ class RPSWeb < Sinatra::Base
     erb :play
   end
 
+  get '/newgame' do
+    erb :index
+  end
+
   run! if $PROGRAM_NAME == __FILE__
 end

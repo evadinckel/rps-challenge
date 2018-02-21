@@ -1,0 +1,62 @@
+.background_index {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #900000;
+}
+
+.background_play{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.playagainbutton {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 17px;
+  background: #7e919e;
+  text-decoration: none;
+}
+.playagainbutton:hover {
+  background: #d6e3eb;
+  background-image: -webkit-linear-gradient(top, #d6e3eb, #b9c3c9);
+  background-image: -moz-linear-gradient(top, #d6e3eb, #b9c3c9);
+  background-image: -ms-linear-gradient(top, #d6e3eb, #b9c3c9);
+  background-image: -o-linear-gradient(top, #d6e3eb, #b9c3c9);
+  background-image: linear-gradient(to bottom, #d6e3eb, #b9c3c9);
+  text-decoration: none;
+}
+
+.background_image_result {
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+
+}
+
+
+.newplayerbutton {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 17px;
+  background: #7e919e;
+  text-decoration: none;
+}
+.newplayerbutton:hover {
+  background: #d6e3eb;
+  background-image: -webkit-linear-gradient(top, #d6e3eb, #b9c3c9);
+  background-image: -moz-linear-gradient(top, #d6e3eb, #b9c3c9);
+  background-image: -ms-linear-gradient(top, #d6e3eb, #b9c3c9);
+  background-image: -o-linear-gradient(top, #d6e3eb, #b9c3c9);
+  background-image: linear-gradient(to bottom, #d6e3eb, #b9c3c9);
+  text-decoration: none;
+}

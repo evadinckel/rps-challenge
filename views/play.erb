@@ -1,8 +1,17 @@
-<p>Hello, <%= player.name %>!</p>
-<p>Choose your weapon!</p>
+<!DOCTYPE html>
+<html>
+  <center>
+    <head>
+      <p>Hello <%= player.name %>!</p>
+      <p>Choose your weapon!</p>
+      <link rel='stylesheet' type='text/css' href='stylesheet.css' >
+    </head>
 
-<form action="/choice" method="post">
-  <input type="submit" name="weapon" value="Rock">
-  <input type="submit" name="weapon" value="Paper">
-  <input type="submit" name="weapon" value="Scissors">
-</form>
+    <body>
+      <body background="http://wildgoo.com/mag1/Backgrounds/Lightning-1076638318.jpg" class="background_play">
+      <form action="/choice" method="post">
+        <input type="submit" name="weapon" value="Rock">
+        <input type="submit" name="weapon" value="Paper">
+        <input type="submit" name="weapon" value="Scissors">
+      </form>
+    </body>
